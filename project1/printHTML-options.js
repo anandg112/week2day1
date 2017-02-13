@@ -28,4 +28,3 @@ var requestOptions = {
 };
 
 getAndPrintHTML(requestOptions);
-
