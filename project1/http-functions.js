@@ -1,10 +1,7 @@
 var https = require('https');
 
-function printHTML (html) {
-  console.log(html);
-};
 
-function getHTML (options, callback) {
+module.exports = function getHTML (options, callback) {
     /* Your code here */
 
     var data = '';
@@ -26,8 +23,8 @@ function getHTML (options, callback) {
 };
 
 
-module.exports = {
-  getHTML: getHTML,
-  printHTML: printHTML
-};
+// module.exports = {
+//   getHTML: getHTML,
+//   printHTML: printHTML
+// };
 
